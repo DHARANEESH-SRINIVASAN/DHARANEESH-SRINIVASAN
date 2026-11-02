@@ -26,7 +26,10 @@
   <a href="https://central.sonatype.com/artifact/io.github.dharaneesh-srinivasan/columnwire-spring-boot-starter"><img src="https://img.shields.io/maven-central/v/io.github.dharaneesh-srinivasan/columnwire-spring-boot-starter?style=for-the-badge&label=Maven%20Central&color=c71a36" alt="Maven Central"/></a>
   <a href="https://www.npmjs.com/package/columnwire"><img src="https://img.shields.io/npm/v/columnwire?style=for-the-badge&label=npm&color=cb3837" alt="npm"/></a>
   <a href="https://github.com/DHARANEESH-SRINIVASAN/columnwire/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/DHARANEESH-SRINIVASAN/columnwire/ci.yml?style=for-the-badge&label=CI" alt="CI"/></a>
+  <a href="https://scorecard.dev/viewer/?uri=github.com/DHARANEESH-SRINIVASAN/columnwire"><img src="https://img.shields.io/ossf-scorecard/github.com/DHARANEESH-SRINIVASAN/columnwire?style=for-the-badge&label=OpenSSF%20Scorecard" alt="OpenSSF Scorecard"/></a>
 </p>
+
+<p><sub>Released on Maven Central and npm with GPG-signed artifacts, npm provenance in the Sigstore log, CodeQL on every change, property-based tests, and CI on JDK 17, 21 and 25.</sub></p>
 
 <div data-stats="columnwire" align="center">
 
