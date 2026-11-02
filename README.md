@@ -30,7 +30,7 @@
 
 <div data-stats="columnwire" align="center">
 
-<sub>The npm package is not published yet. Download counts appear here the day after the first release.</sub>
+<sub><code>columnwire</code> was published on npm on Nov 2, 2026. npm reports downloads a day late, so the first counts appear here tomorrow.</sub>
 
 </div>
 

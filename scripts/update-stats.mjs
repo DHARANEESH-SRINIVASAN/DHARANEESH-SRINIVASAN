@@ -1,4 +1,4 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const PACKAGE = process.env.STATS_PACKAGE ?? "columnwire";
 const HISTORY = "data/npm-downloads.json";
@@ -58,17 +58,14 @@ function summarize(history) {
   return { total, week: windowSum(7), month: windowSum(30), last, published: history.published };
 }
 
-function block(stats) {
+function block(stats, published) {
   const badge = (label, value, color) =>
     `<img src="https://img.shields.io/badge/${encodeURIComponent(label)}-${encodeURIComponent(value)}-${color}?style=for-the-badge" alt="${label}: ${value}"/>`;
   if (!stats) {
-    return [
-      OPEN,
-      "",
-      "<sub>The npm package is not published yet. Download counts appear here the day after the first release.</sub>",
-      "",
-      CLOSE,
-    ].join("\n");
+    const note = published
+      ? `<sub><code>${PACKAGE}</code> was published on npm on ${pretty(published)}. npm reports downloads a day late, so the first counts appear here tomorrow.</sub>`
+      : "<sub>The npm package is not published yet. Download counts appear here the day after the first release.</sub>";
+    return [OPEN, "", note, "", CLOSE].join("\n");
   }
   return [
     OPEN,
@@ -90,8 +87,9 @@ try {
   console.warn(`npm unavailable, keeping stored history: ${error.message}`);
   updated = Object.keys(history.downloads).length ? history : null;
 }
-if (updated) {
+if (updated && (Object.keys(updated.downloads).length || updated.published)) {
   updated.downloads = Object.fromEntries(Object.entries(updated.downloads).sort(([a], [b]) => a.localeCompare(b)));
+  await mkdir("data", { recursive: true });
   await writeFile(HISTORY, `${JSON.stringify(updated, null, 2)}\n`);
 }
 const readme = await readFile(README, "utf8");
@@ -99,5 +97,5 @@ const from = readme.indexOf(OPEN);
 const to = readme.indexOf(CLOSE, from);
 if (from < 0 || to < 0) throw new Error(`README is missing the ${OPEN} block`);
 const stats = updated && Object.keys(updated.downloads).length ? summarize(updated) : null;
-await writeFile(README, readme.slice(0, from) + block(stats) + readme.slice(to + CLOSE.length));
+await writeFile(README, readme.slice(0, from) + block(stats, updated?.published ?? history.published) + readme.slice(to + CLOSE.length));
 console.log(stats ? `total ${stats.total}, 30d ${stats.month}, 7d ${stats.week}` : "not published yet");
