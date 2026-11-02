@@ -27,6 +27,7 @@
   <a href="https://www.npmjs.com/package/columnwire"><img src="https://img.shields.io/npm/v/columnwire?style=for-the-badge&label=npm&color=cb3837" alt="npm"/></a>
   <a href="https://github.com/DHARANEESH-SRINIVASAN/columnwire/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/DHARANEESH-SRINIVASAN/columnwire/ci.yml?style=for-the-badge&label=CI" alt="CI"/></a>
   <a href="https://scorecard.dev/viewer/?uri=github.com/DHARANEESH-SRINIVASAN/columnwire"><img src="https://img.shields.io/ossf-scorecard/github.com/DHARANEESH-SRINIVASAN/columnwire?style=for-the-badge&label=OpenSSF%20Scorecard" alt="OpenSSF Scorecard"/></a>
+  <a href="https://www.bestpractices.dev/projects/16203"><img src="https://img.shields.io/cii/level/16203?style=for-the-badge&label=OpenSSF%20Best%20Practices" alt="OpenSSF Best Practices"/></a>
 </p>
 
 <p><sub>Released on Maven Central and npm with GPG-signed artifacts, npm provenance in the Sigstore log, CodeQL on every change, property-based tests, and CI on JDK 17, 21 and 25.</sub></p>
