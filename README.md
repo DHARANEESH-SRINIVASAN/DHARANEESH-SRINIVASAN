@@ -13,6 +13,8 @@
   <a href="https://github.com/DHARANEESH-SRINIVASAN/columnwire"><b>Columnwire</b></a> sends tables from Spring Boot to React as <a href="https://arrow.apache.org/">Apache Arrow</a> instead of JSON. Existing endpoints stay untouched: clients that ask for Arrow get columnar record batches streamed as they are encoded, everyone else keeps getting JSON. On the React side a hook and a virtualized grid read the columns straight out of the Arrow buffers.
 </p>
 
+<p><a href="https://dharaneesh-srinivasan.github.io/columnwire/"><b>▶ Live demo</b></a> · <a href="https://github.com/DHARANEESH-SRINIVASAN/columnwire">Source and benchmarks</a></p>
+
 | Measured on 1,000,000 rows | JSON | Columnwire |
 |---|---:|---:|
 | Encoding in Spring Boot (JMH) | 643 ms | **154 ms** |
