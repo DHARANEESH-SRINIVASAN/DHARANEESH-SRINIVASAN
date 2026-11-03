@@ -22,4 +22,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || (git commit -m "Update Columnwire download stats $(date -u +%F)" && git push)
+          git diff --cached --quiet || (git commit -m "Update npm download stats $(date -u +%F)" && git push)
