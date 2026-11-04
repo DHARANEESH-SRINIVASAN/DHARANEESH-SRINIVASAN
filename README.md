@@ -40,7 +40,7 @@
 <a href="https://npm-stat.com/charts.html?package=columnwire"><img src="https://img.shields.io/badge/npm%20downloads-424-2f9e44?style=for-the-badge" alt="npm downloads: 424"/></a>
 <img src="https://img.shields.io/badge/last%2030%20days-424-3b5bdb?style=for-the-badge" alt="last 30 days: 424"/> <img src="https://img.shields.io/badge/last%207%20days-424-7048e8?style=for-the-badge" alt="last 7 days: 424"/>
 
-<sub>Downloads of <code>columnwire</code> from npm since Nov 2, 2026, data through Nov 2, 2026. npm counts every tarball fetch, so CI runs, mirrors and repeat installs are included. Maven Central publishes no public download counts.</sub>
+<sub>Downloads of <code>columnwire</code> from npm since Nov 2, 2026, data through Nov 3, 2026. npm counts every tarball fetch, so CI runs, mirrors and repeat installs are included. Maven Central publishes no public download counts.</sub>
 
 </div>
 
