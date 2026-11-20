@@ -37,10 +37,10 @@
 
 <div data-stats="columnwire" align="center">
 
-<a href="https://npm-stat.com/charts.html?package=columnwire"><img src="https://img.shields.io/badge/npm%20downloads-756-2f9e44?style=for-the-badge" alt="npm downloads: 756"/></a>
-<img src="https://img.shields.io/badge/last%2030%20days-756-3b5bdb?style=for-the-badge" alt="last 30 days: 756"/> <img src="https://img.shields.io/badge/last%207%20days-35-7048e8?style=for-the-badge" alt="last 7 days: 35"/>
+<a href="https://npm-stat.com/charts.html?package=columnwire"><img src="https://img.shields.io/badge/npm%20downloads-761-2f9e44?style=for-the-badge" alt="npm downloads: 761"/></a>
+<img src="https://img.shields.io/badge/last%2030%20days-761-3b5bdb?style=for-the-badge" alt="last 30 days: 761"/> <img src="https://img.shields.io/badge/last%207%20days-31-7048e8?style=for-the-badge" alt="last 7 days: 31"/>
 
-<sub>Downloads of <code>columnwire</code> from npm since Nov 2, 2026, data through Nov 18, 2026. npm counts every tarball fetch, so CI runs, mirrors and repeat installs are included. Maven Central publishes no public download counts.</sub>
+<sub>Downloads of <code>columnwire</code> from npm since Nov 2, 2026, data through Nov 19, 2026. npm counts every tarball fetch, so CI runs, mirrors and repeat installs are included. Maven Central publishes no public download counts.</sub>
 
 </div>
 
@@ -82,10 +82,10 @@ What went into it: a Spring MVC `HttpMessageConverter` that only answers when as
 
 <div data-stats="leapwire" align="center">
 
-<a href="https://npm-stat.com/charts.html?package=leapwire"><img src="https://img.shields.io/badge/npm%20downloads-412-2f9e44?style=for-the-badge" alt="npm downloads: 412"/></a>
-<img src="https://img.shields.io/badge/last%2030%20days-412-3b5bdb?style=for-the-badge" alt="last 30 days: 412"/> <img src="https://img.shields.io/badge/last%207%20days-20-7048e8?style=for-the-badge" alt="last 7 days: 20"/>
+<a href="https://npm-stat.com/charts.html?package=leapwire"><img src="https://img.shields.io/badge/npm%20downloads-416-2f9e44?style=for-the-badge" alt="npm downloads: 416"/></a>
+<img src="https://img.shields.io/badge/last%2030%20days-416-3b5bdb?style=for-the-badge" alt="last 30 days: 416"/> <img src="https://img.shields.io/badge/last%207%20days-18-7048e8?style=for-the-badge" alt="last 7 days: 18"/>
 
-<sub>Downloads of <code>leapwire</code> from npm since Nov 3, 2026, data through Nov 18, 2026. npm counts every tarball fetch, so CI runs, mirrors and repeat installs are included. Maven Central publishes no public download counts.</sub>
+<sub>Downloads of <code>leapwire</code> from npm since Nov 3, 2026, data through Nov 19, 2026. npm counts every tarball fetch, so CI runs, mirrors and repeat installs are included. Maven Central publishes no public download counts.</sub>
 
 </div>
 
